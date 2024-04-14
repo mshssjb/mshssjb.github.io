@@ -1,0 +1,46 @@
+html {background-color: #E0E0E0;}
+body {background-color: #F1F1F1; width: 80%; margin: 40PX auto;}
+main {padding: 10PX;}
+header {width: 100%; height: fit-content; background-color: black;}
+header img {height: 95PX; padding: 10PX; margin: 0 10PX; float: left;}
+header img:hover {transform: none;}
+header h1 {padding-top: 10PX; color: white; height: 70%; margin-top: 0; padding-top: -0.1EM;}
+footer {height: 50PX; background-color: black; /*333333*/ padding: 20PX 10PX; position: static; bottom: 0;}
+footer a {color: white; padding: 10PX;}
+footer a:hover {background-color: transparent; color: lightgrey;} footer a:active {color: red;}
+nav {padding: 10PX; margin: 10PX 10PX 20PX 0PX; border: 1px solid #000; width: fit-content;}
+pre {margin-bottom: 0;}
+nav h1 {margin-top: 0.1EM;} /* #225CC8 */
+a {color: blue;} a:visited {color: blue;} a:hover {background-color: #FFFF99;} a:active {background-color: #FFFF99; color: red;}
+img {margin: 5PX; transition: .2s;}
+.title {padding: .1EM 0 6PX .2EM; margin-bottom: 0.1EM; background: linear-gradient(90DEG, #000000 0%, #FFFFFF 100%); color: white;}
+.credits {padding: 0.5EM 0 0.5EM 1EM; width: 100%; margin: 14PX 10PX 0 -10PX; bottom: 0; color: white; background-color: #444444;}
+.left {float: left; padding: 10PX;} .right {float: right; padding: 10PX;}
+.clear {clear: both;} .first {padding-left: 0;}
+.em {display: inline-block; margin: 0.2EM 0;}
+/* top nav bar */
+.top-nav {display: block; display: flex; flex-flow: row;}
+.top-nav a {padding: 15px; color: white; float: left; text-decoration: none;}
+.top-nav a:hover {background-color: grey;}
+.top-nav a:active {background-color: #F2F2F2; color: black;}
+.top-nav .active {background-color: #F2F2F2; color: black; padding-bottom: 17PX;}
+.dd {position: relative; display: inline-block;}
+.dd-btn {background-color: black; color: white; padding: 15PX; border: none; font: 16PX 'Times New Roman', serif; cursor: pointer;}
+.dd-c {display: none; position: absolute; background-color: #F5F5F5; z-index: 1;
+       box-shadow: -10PX 8PX 10PX 0 #E0E0E0; border-top: 2PX solid grey;}
+.dd-c a {color: black; padding: 12PX 15PX; text-decoration: none; display: block; width: 140PX;}
+.dd-c a:hover {background-color: lightgrey;} .dd-c a:active {background-color: black; color: white; border: 0;}
+.dd:hover .dd-c {display: block;}
+.dd:hover .dd-btn{background-color: grey;}
+/* ex-co hierarchy */
+.box {border: 1PX solid black; padding: 10PX; margin: 10PX;}
+.box.impt {width: fit-content; height: fit-content; background-color: #FFFF99;}
+.box.impt h2 {margin: -10PX; padding: 5PX; background-color: #EEEE99; border-bottom: 1PX solid black; }
+.exco-hierarchy {border-spacing: 0;}
+.exco-hierarchy h1 {margin: 0; margin-bottom: 0.2EM;}
+.exco-hierarchy img {height: 100PX; margin: 0 auto; display: block; image-rendering: crisp-edges;}
+.h {background-size: cover; image-rendering: pixelated;} /* hierarchy */
+.h img {background-size: cover; image-rendering: pixelated;}
+.hd {background-size: cover; image-rendering: pixelated; background-image: url('images/down.png'); height: 10PX;}
+#bigleftspace {margin-left: 18%;}
+#nospace {padding-left: 25PX;}
