@@ -12,7 +12,7 @@ template.innerHTML = `
     <footer>
         <a href="#top">Back to the top</a>
         <a href="index.html">Main Page</a>
-        <a href="nco-dir.htm">NCO Drive</a>
+        <a href="login.htm">NCO Drive</a>
         <a href="exco.htm">Leadership</a>
         <a href="contact.htm">Contact</a>
     <div class="credits">Maintained by CPL Ja Zun</div>

@@ -20,7 +20,7 @@ template.innerHTML = `
                 <div class="dd">
                     <button class="dd-btn" style="background-color: #F2F2F2; color: black;">Admin</button>
                     <div class="dd-c" style="border-top: 0">
-                        <a href="nco-dir.htm">NCO Drive Directory</a>
+                        <a href="login.htm">NCO Drive Directory</a>
                         <a href="exco.htm">Leadership</a>
                         <a href="schedule.htm">Schedule</a>
                     </div>

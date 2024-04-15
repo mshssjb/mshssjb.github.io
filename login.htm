@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>先告诉我你到底是谁</title>
+</head>
+<header><script src="header.js"></script></header>
+<body>
+    <h1 class="title">Login</h1>
+    <main>
+        <div class="box impt" style="margin: 0;"><strong>NCOs ONLY SECTION!</strong></div>
+        <fieldset>
+        <legend>Login</legend>
+        <form action="nco-dir.htm" onsubmit="return authenticate()">
+            <div class="input-box">
+                <label for="username">Username</label>
+                <!-- added IDs to the inputs -->
+                <input
+                id="username"
+                type="text"
+                placeholder="Enter Username"
+                name="username"
+                required
+                />
+            </div>
+            <div class="input-box">
+                <label for="password">Password</label>
+                <input
+                id="password"
+                type="password"
+                placeholder="Enter Password"
+                name="password"
+                required
+                />
+                <p></p>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+        
+        <script>
+            function authenticate(){
+            var authorised;
+            // input
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            
+            //check to see if the password and username match
+            if(username == "sec3" && password == "Gabrielwansui"){
+                authorised = true;
+            }else{ // username or password do not match
+                authorised = false;
+                //alert user
+                alert("So you're not a sec 3 after all");
+            }
+            //return result
+            return authorised;
+            }
+        </script>
+        </fieldset>
+    </main>
+</body>
+<footer>
+    <a href="#top">Back to the top</a>
+    <a href="index.html">Main Page</a>
+    <a href="admin.htm">Admin</a>
+    <a href="trng.htm">Training</a>
+    <a href="contact.htm">Contact</a>
+<div class="credits">Maintained by CPL Ja Zun</div>
+</footer>
+</html>
