@@ -15,6 +15,7 @@ nav h1 {margin-top: 0.1EM;} /* #225CC8 */
 a {color: blue;} a:visited {color: blue;} a:hover {background-color: #FFFF99;} a:active {background-color: #FFFF99; color: red;}
 img {margin: 5PX; transition: .2s;}
 fieldset {margin: 10PX 0; width: fit-content;} legend {font-size: larger; font-style: italic; padding: 0 0.2EM;}
+abbr:hover:before {content: attr(title); position: absolute; background-color: black; color: white; padding: 3PX 8PX; margin: -25PX 0 0 0;}
 .input-box {margin-bottom: 10PX; display: block;}
 .input-box label {width: 70PX; display: inline-block;}
 .title {padding: .1EM 0 6PX .2EM; margin-bottom: 0.1EM; background: linear-gradient(90DEG, #000000 0%, #FFFFFF 100%); color: white;}
