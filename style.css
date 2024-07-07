@@ -31,7 +31,7 @@ abbr:hover:before {content: attr(title); position: absolute; background-color: b
 .top-nav a:active {background-color: #F2F2F2; color: black;}
 .top-nav .active {background-color: #F2F2F2; color: black; padding-bottom: 17PX;}
 .dd {position: relative; display: inline-block;}
-.dd-btn {background-color: black; color: white; padding: 15PX; border: none; font: 16PX 'Times New Roman', serif; cursor: pointer;}
+.dd-btn {background-color: black; color: white; padding: 15PX; border: none; font: 16PX 'Times New Roman', serif; cursor: pointer; margin: 0;}
 .dd-c {display: none; position: absolute; background-color: #F5F5F5; z-index: 1;
        box-shadow: -10PX 8PX 10PX 0 #E0E0E0; border-top: 2PX solid grey;}
 .dd-c a {color: black; padding: 12PX 15PX; text-decoration: none; display: block; width: 140PX;}

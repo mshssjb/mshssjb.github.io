@@ -15,7 +15,7 @@ template.innerHTML = `
         <a href="login.htm">NCO Drive</a>
         <a href="exco.htm">Leadership</a>
         <a href="contact.htm">Contact</a>
-    <div class="credits">Maintained by CPL Ja Zun</div>
+    <div class="credits">© Maris Stella High School St John's Brigade (<a href="MAILTO:cjz-cjz@hotmail.com" style="margin:0; padding:0"><i>Webmaster</i></a>)</div>
     </footer>
     </BODY>
 </HTML>
