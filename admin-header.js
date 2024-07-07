@@ -28,8 +28,8 @@ template.innerHTML = `
                 <div class="dd">
                     <button class="dd-btn">Training</button>
                     <div class="dd-c" style="border-top: 0">
-                        <a href="fa-manual.pdf">F.A. Manual (PDF)</a>
-                        <a href="images.htm">Images</a>
+                        <a href="fa-manual.pdf">FA Manual (Pdf)</a>
+                        <a href="fa-manual.pdf">FD Manual (Pdf)</a>
                     </div>
                 </div>
                 <a href="contact.htm">Contact</a>
