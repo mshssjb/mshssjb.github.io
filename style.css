@@ -5,7 +5,7 @@ main {padding: 10PX;}
 header {width: 100%; height: fit-content; background-color: black;}
 header img {height: 95PX; padding: 10PX; margin: 0 10PX; float: left;}
 header img:hover {transform: none;}
-header h1 {padding-top: 10PX; color: white; height: 70%; margin-top: 0; padding-top: -0.1EM;}
+header h1 {padding-top: 10PX; color: white; height: 80%; margin-top: 0; padding-top: -0.2EM}
 footer {height: 50PX; background-color: black; /*333333*/ padding: 20PX 10PX; position: static; bottom: 0;}
 footer a {color: white; padding: 10PX;}
 footer a:hover {background-color: transparent; color: lightgrey;} footer a:active {color: red;}
@@ -48,5 +48,13 @@ abbr:hover:before {content: attr(title); position: absolute; background-color: b
 .h {background-size: cover; image-rendering: pixelated;} /* hierarchy */
 .h img {background-size: cover; image-rendering: pixelated;}
 .hd {background-size: cover; image-rendering: pixelated; background-image: url('images/down.png'); height: 10PX;}
+.open {display: inline; cursor: pointer; color: green; text-decoration: underline;}
+.open:hover {background-color: #FFFF99;}
+.hov {display: inline-block; width: 300PX; padding: 10PX; margin: 10PX;}
+.hov img {display: inline-block; border: 1PX solid black; width: 100; margin: 0PX;}
+.hov figcaption {font-style: italic; font-size: 1.1EM;}
+.hov > a:HOVER {background-color: transparent;}
+.hov > a:HOVER > img:HOVER {opacity: 0.8;}
+.hov > * {display: inline-block;}
 #bigleftspace {margin-left: 18%;}
 #nospace {padding-left: 25PX;}
