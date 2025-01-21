@@ -16,6 +16,9 @@ nav h1 {margin-top: 0.1EM;} /* #225CC8 */
 a {color: blue;} a:visited {color: blue;} a:hover {background-color: #FFFF99;} a:active {background-color: #FFFF99; color: red;}
 img {margin: 5PX; transition: .2s;}
 fieldset {margin: 10PX 0; width: fit-content;} legend {font-size: larger; font-style: italic; padding: 0 0.2EM;}
+figure {display: table; margin: 0;}
+figure img {display: table-caption;}
+figcaption {width: 100%; display: table-caption; caption-side: bottom;}
 abbr:hover:before {content: attr(title); position: absolute; background-color: black; color: white; padding: 3PX 8PX; margin: -25PX 0 0 0;}
 .input-box {margin-bottom: 10PX; display: block;}
 .input-box label {width: 70PX; display: inline-block;}
@@ -40,6 +43,7 @@ abbr:hover:before {content: attr(title); position: absolute; background-color: b
 .dd:hover .dd-btn{background-color: grey;}
 /* ex-co hierarchy */
 .box {border: 1PX solid black; padding: 10PX; margin: 10PX;}
+.box h3:first-child {margin-top: 0.25EM;}
 .box.impt {width: fit-content; height: fit-content; background-color: #FFFF99;}
 .box.impt h2 {margin: -10PX; padding: 5PX; background-color: #EEEE99; border-bottom: 1PX solid black; }
 .exco-hierarchy {border-spacing: 0;}

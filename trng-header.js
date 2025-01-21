@@ -16,18 +16,18 @@ template.innerHTML = `
         <div>
             <h1>Maris Stella High School St John's Brigade</h1>
             <div class="top-nav">
-                <a href="index.html" class="active">Home</a>
+                <a href="index.html">Home</a>
                 <div class="dd">
                     <button class="dd-btn">Admin</button>
-                    <div class="dd-c">
+                    <div class="dd-c" style="border-top: 0">
                         <a href="login.htm">NCO Drive Directory</a>
                         <a href="exco.htm">Leadership</a>
                         <a href="schedule.htm">Schedule</a>
                     </div>
                 </div>
                 <div class="dd">
-                    <button class="dd-btn">Training</button>
-                    <div class="dd-c">
+                    <button class="dd-btn" style="background-color: #F2F2F2; color: black;">Training</button>
+                    <div class="dd-c" style="border-top: 0">
                         <a href="fa-manual.pdf">FA Manual (Pdf)</a>
                         <a href="fa-manual.pdf">FD Manual (Pdf)</a>
                         <a href="ranks.htm">Ranks & Insignia</a>

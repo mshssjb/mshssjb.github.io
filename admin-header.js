@@ -30,6 +30,8 @@ template.innerHTML = `
                     <div class="dd-c" style="border-top: 0">
                         <a href="fa-manual.pdf">FA Manual (Pdf)</a>
                         <a href="fa-manual.pdf">FD Manual (Pdf)</a>
+                        <a href="ranks.htm">Ranks & Insignia</a>
+                        <a href="uniform.htm">Dress regulations</a>
                     </div>
                 </div>
                 <a href="contact.htm">Contact</a>
